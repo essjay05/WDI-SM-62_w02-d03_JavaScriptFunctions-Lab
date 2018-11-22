@@ -40,3 +40,10 @@ var sumArray = numbers.reduce(function (total, amount) {
     return total + amount;
 });
 console.log(sumArray);
+
+// ---------- FUNCTION 5 -------------//
+var numbers2 = [3.5, 2, 1, 7];
+function multiplyArray(a, b, c, d) {
+    return a * b * c * d;
+};
+console.log(multiplyArray(3.5, 2, 1, 7));
