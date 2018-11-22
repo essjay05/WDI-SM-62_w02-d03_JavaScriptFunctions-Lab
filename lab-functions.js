@@ -31,3 +31,12 @@ function isCharAVowel (letter) {
     return letter.match('a|e|i|o|u') ? true: false};
 
 console.log(isCharAVowel('i'));
+
+
+// ---------- FUNCTION 4 -------------//
+var numbers = [5, 2, 11, 18];
+
+var sumArray = numbers.reduce(function (total, amount) {
+    return total + amount;
+});
+console.log(sumArray);
