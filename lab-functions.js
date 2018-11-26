@@ -11,6 +11,8 @@ function maxOfTwoNumbers (x, y) {
 console.log(maxOfTwoNumbers(3, 9));
 
 
+
+
 // ---------- FUNCTION 2 -------------//
 
 var maxOfThree = function(x, y, z) {
@@ -25,12 +27,14 @@ var maxOfThree = function(x, y, z) {
 console.log(maxOfThree(2, 8, 3.4));
 
 
+
 // ---------- FUNCTION 3 -------------//
 
 function isCharAVowel (letter) {
     return letter.match('a|e|i|o|u') ? true: false};
 
 console.log(isCharAVowel('i'));
+
 
 
 // ---------- FUNCTION 4 -------------//
@@ -41,9 +45,59 @@ var sumArray = numbers.reduce(function (total, amount) {
 });
 console.log(sumArray);
 
+
+
+
 // ---------- FUNCTION 5 -------------//
 var numbers2 = [3.5, 2, 1, 7];
+
 function multiplyArray(a, b, c, d) {
     return a * b * c * d;
 };
 console.log(multiplyArray(3.5, 2, 1, 7));
+
+
+
+// ---------- FUNCTION 6 -------------//
+// ---------- FUNCTION 6 -------------//
+// ---------- FUNCTION 6 -------------//
+// NEED TO FINISH
+
+/*
+var numArgs = function(a, b, c, d) {
+    var longest = '';
+    for (var i = 0; i < arguments.length; i++) {
+        if (numArgs[i].length > longest.length) {
+            longest= numArgs[i];
+        }
+    }
+} console.log(longest);
+*/
+
+
+// ---------- FUNCTION 7 -------------//
+
+function reverseString(str) {
+    var splitString = str.split ('');
+    // var splitString = 'hello.split('');
+    // [ 'h' , 'e' , 'l' , 'l', 'o' ]
+
+    var reverseArray = splitString.reverse();
+    //var reverseArray to ['o', 'l', 'l', 'e', 'h']
+
+    var joinArray = reverseArray.join('');
+    //var joinArray = merges letters and changes to string: 'olleh'
+
+    return joinArray;
+    //return str;
+}
+
+reverseString('rockstar');
+console.log(reverseString('rockstar'));
+
+
+
+// ---------- FUNCTION 8 -------------//
+
+
+
