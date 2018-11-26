@@ -98,6 +98,34 @@ console.log(reverseString('rockstar'));
 
 
 // ---------- FUNCTION 8 -------------//
+// ---------- FUNCTION 8 -------------//
+// ---------- FUNCTION 8 -------------//
+// ---------- FUNCTION 8 -------------//
+/*
+var wordList = 'May the force be with you'
+var longestWordLength = function(wordList) {
+    //1. Split list/string of words into an array of strings
+    var wordListSplit = wordList.split(' ');
+
+    //2. Create variable to hold longest word length
+    var longestWord = 0;
+
+    //3. Create loop
+    for (var i = 0; i < wordListSplit.length[i]; i++) {
+        if (wordListSplit[i].length > longestWord) {
+            longestWord = wordListSplit[i].length;
+        };
+    };
+    //4. Return Longest word & print longest word
+    //return longestWordLength;
+    console.log(longestWord);
+};
+*/
 
 
 
+var stringsLongerThan = ['touch', 'me', 'in', 'the', 'morning']
+var overFourChar = stringsLongerThan.filter(function(element) {
+    return element.length > 4;
+});
+console.log(overFourChar);
